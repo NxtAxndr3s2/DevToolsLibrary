@@ -125,3 +125,18 @@ will-change: transform;
 }
 
 
+.search-btn {
+    background: #304184;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s ease;
+}
+
+.search-btn:hover {
+    background: #192266;
+    transform: scale(1.05);
+}
