@@ -6,7 +6,7 @@ body {
     line-height: 1.6;
 }
 
-/HEADER/
+/*HEADER*/
 .containt_img{
     display: flex;
     align-items: center; /* logo y texto en línea */
@@ -33,13 +33,13 @@ body {
     bottom: -20px;
     left: 0;
     width: 100%;
-}
-
+    height: 20px;
+    background-color: #1F2933;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    z-index: -1;
 /* Lista del nav */
 .nav_header ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
     margin: 0;
     padding: 0;
 
@@ -47,9 +47,6 @@ body {
 
 .nav_header button, a {
 appearance: none;
-background-color: transparent;
-border: 2px solid transparent;
-border-radius: 12px;
 color: #ffffff;
 cursor: pointer;
 font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -107,19 +104,37 @@ will-change: transform;
     width: 180px;
     font-family: inherit;
 }
-    font-size: 28px;
-    margin: 0;
-    letter-spacing: 2px;
-    height: 20px;
 
-    font-weight: 700;
-/*  Nombre del logo */
-.name_logo {
-    color: whitesmoke;
-    background-color: #1F2933;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    z-index: -1;
+.search-btn {
+    background: #304184;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s ease;
 }
 
+.search-btn:hover {
+    background: #192266;
+    transform: scale(1.05);
+}background-color: transparent;
+border: 2px solid transparent;
+border-radius: 12px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+}
+
+
+
+    letter-spacing: 2px;
+
+/*  Nombre del logo */
+    margin: 0;
+.name_logo {
+    color: whitesmoke;
+    font-size: 28px;
 
